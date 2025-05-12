@@ -74,6 +74,9 @@ type oppo_reserve_system_file, file_type;
 # Secure
 type vendor_proc_oppo_secure_common_file, fs_type, proc_type;
 
+# sysfs
+type sysfs_torch, sysfs_type, fs_type;
+
 # Sensors
 type vendor_proc_eng_cali_file, fs_type, proc_type;
 type vendor_proc_oplus_als_file, fs_type, proc_type;
